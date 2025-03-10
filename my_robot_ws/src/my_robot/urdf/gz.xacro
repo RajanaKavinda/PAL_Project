@@ -15,7 +15,7 @@
         <plugin filename="gz-sim-joint-state-publisher-system" name="gz::sim::systems::JointStatePublisher">
         </plugin>
 
-        <plugin filename="libDummySensorSystem.so" name="custom::DummySensorSystem">
+        <plugin filename="DummySensorSystem" name="custom::DummySensorSystem">
         </plugin>
 
         <!-- ........................... DIFFERENTIAL DRIVE PLUGIN ................................... -->
