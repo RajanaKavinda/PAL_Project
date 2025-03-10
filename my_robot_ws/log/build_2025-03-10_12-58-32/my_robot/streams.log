@@ -1,0 +1,139 @@
+[0.010s] Invoking command in '/home/rajana/GSoC/my_robot_ws/build/my_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/rajana/GSoC/my_robot_ws/build/my_robot -- -j8 -l8
+[0.028s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.131s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.189s] -- Configuring done
+[0.190s] -- Generating done
+[0.192s] -- Build files have been written to: /home/rajana/GSoC/my_robot_ws/build/my_robot
+[0.208s] Invoked command in '/home/rajana/GSoC/my_robot_ws/build/my_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/rajana/GSoC/my_robot_ws/build/my_robot -- -j8 -l8
+[0.216s] Invoking command in '/home/rajana/GSoC/my_robot_ws/build/my_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/rajana/GSoC/my_robot_ws/build/my_robot
+[0.222s] -- Install configuration: ""
+[0.222s] -- Execute custom install script
+[0.223s] -- Symlinking: /home/rajana/GSoC/my_robot_ws/install/my_robot/share/my_robot//launch/gz.launch.py
+[0.232s] -- Symlinking: /home/rajana/GSoC/my_robot_ws/install/my_robot/share/my_robot//launch/my_robot_gz_spawn.launch.py
+[0.242s] -- Symlinking: /home/rajana/GSoC/my_robot_ws/install/my_robot/share/my_robot//launch/rviz.launch.py
+[0.250s] -- Symlinking: /home/rajana/GSoC/my_robot_ws/install/my_robot/share/my_robot//meshes/bcr_bot_mesh.dae
+[0.258s] -- Symlinking: /home/rajana/GSoC/my_robot_ws/install/my_robot/share/my_robot//meshes/kinect/d415.dae
+[0.265s] -- Symlinking: /home/rajana/GSoC/my_robot_ws/install/my_robot/share/my_robot//meshes/kinect/kinect.dae
+[0.273s] -- Symlinking: /home/rajana/GSoC/my_robot_ws/install/my_robot/share/my_robot//meshes/kinect/kinect.jpg
+[0.279s] -- Symlinking: /home/rajana/GSoC/my_robot_ws/install/my_robot/share/my_robot//meshes/kinect/kinect.tga
+[0.286s] -- Symlinking: /home/rajana/GSoC/my_robot_ws/install/my_robot/share/my_robot//meshes/logo.png
+[0.293s] -- Symlinking: /home/rajana/GSoC/my_robot_ws/install/my_robot/share/my_robot//meshes/realsense_texture.png
+[0.301s] -- Symlinking: /home/rajana/GSoC/my_robot_ws/install/my_robot/share/my_robot//models/aws_robomaker_warehouse_Bucket_01/.DS_Store
+[0.308s] -- Symlinking: /home/rajana/GSoC/my_robot_ws/install/my_robot/share/my_robot//models/aws_robomaker_warehouse_Bucket_01/materials/.DS_Store
+[0.315s] -- Symlinking: /home/rajana/GSoC/my_robot_ws/install/my_robot/share/my_robot//models/aws_robomaker_warehouse_Bucket_01/materials/textures/aws_robomaker_warehouse_Bucket_01.png
+[0.322s] -- Symlinking: /home/rajana/GSoC/my_robot_ws/install/my_robot/share/my_robot//models/aws_robomaker_warehouse_Bucket_01/meshes/aws_robomaker_warehouse_Bucket_01_collision.DAE
+[0.330s] -- Symlinking: /home/rajana/GSoC/my_robot_ws/install/my_robot/share/my_robot//models/aws_robomaker_warehouse_Bucket_01/meshes/aws_robomaker_warehouse_Bucket_01_visual.DAE
+[0.337s] -- Symlinking: /home/rajana/GSoC/my_robot_ws/install/my_robot/share/my_robot//models/aws_robomaker_warehouse_Bucket_01/model.config
+[0.345s] -- Symlinking: /home/rajana/GSoC/my_robot_ws/install/my_robot/share/my_robot//models/aws_robomaker_warehouse_Bucket_01/model.sdf
+[0.351s] -- Symlinking: /home/rajana/GSoC/my_robot_ws/install/my_robot/share/my_robot//models/aws_robomaker_warehouse_ClutteringA_01/.DS_Store
+[0.358s] -- Symlinking: /home/rajana/GSoC/my_robot_ws/install/my_robot/share/my_robot//models/aws_robomaker_warehouse_ClutteringA_01/materials/.DS_Store
+[0.365s] -- Symlinking: /home/rajana/GSoC/my_robot_ws/install/my_robot/share/my_robot//models/aws_robomaker_warehouse_ClutteringA_01/materials/textures/.DS_Store
+[0.372s] -- Symlinking: /home/rajana/GSoC/my_robot_ws/install/my_robot/share/my_robot//models/aws_robomaker_warehouse_ClutteringA_01/materials/textures/aws_robomaker_warehouse_ClutteringA_01.png
+[0.379s] -- Symlinking: /home/rajana/GSoC/my_robot_ws/install/my_robot/share/my_robot//models/aws_robomaker_warehouse_ClutteringA_01/materials/textures/aws_robomaker_warehouse_ClutteringA_02.png
+[0.386s] -- Symlinking: /home/rajana/GSoC/my_robot_ws/install/my_robot/share/my_robot//models/aws_robomaker_warehouse_ClutteringA_01/materials/textures/aws_robomaker_warehouse_ClutteringA_03.png
+[0.393s] -- Symlinking: /home/rajana/GSoC/my_robot_ws/install/my_robot/share/my_robot//models/aws_robomaker_warehouse_ClutteringA_01/meshes/aws_robomaker_warehouse_ClutteringA_01_collision.DAE
+[0.401s] -- Symlinking: /home/rajana/GSoC/my_robot_ws/install/my_robot/share/my_robot//models/aws_robomaker_warehouse_ClutteringA_01/meshes/aws_robomaker_warehouse_ClutteringA_01_visual.DAE
+[0.410s] -- Symlinking: /home/rajana/GSoC/my_robot_ws/install/my_robot/share/my_robot//models/aws_robomaker_warehouse_ClutteringA_01/model.config
+[0.419s] -- Symlinking: /home/rajana/GSoC/my_robot_ws/install/my_robot/share/my_robot//models/aws_robomaker_warehouse_ClutteringA_01/model.sdf
+[0.428s] -- Symlinking: /home/rajana/GSoC/my_robot_ws/install/my_robot/share/my_robot//models/aws_robomaker_warehouse_ClutteringC_01/materials/textures/aws_robomaker_warehouse_ClutteringC_01.png
+[0.435s] -- Symlinking: /home/rajana/GSoC/my_robot_ws/install/my_robot/share/my_robot//models/aws_robomaker_warehouse_ClutteringC_01/materials/textures/aws_robomaker_warehouse_ClutteringC_02.png
+[0.442s] -- Symlinking: /home/rajana/GSoC/my_robot_ws/install/my_robot/share/my_robot//models/aws_robomaker_warehouse_ClutteringC_01/meshes/aws_robomaker_warehouse_ClutteringC_01_collision.DAE
+[0.449s] -- Symlinking: /home/rajana/GSoC/my_robot_ws/install/my_robot/share/my_robot//models/aws_robomaker_warehouse_ClutteringC_01/meshes/aws_robomaker_warehouse_ClutteringC_01_visual.DAE
+[0.455s] -- Symlinking: /home/rajana/GSoC/my_robot_ws/install/my_robot/share/my_robot//models/aws_robomaker_warehouse_ClutteringC_01/model.config
+[0.462s] -- Symlinking: /home/rajana/GSoC/my_robot_ws/install/my_robot/share/my_robot//models/aws_robomaker_warehouse_ClutteringC_01/model.sdf
+[0.469s] -- Symlinking: /home/rajana/GSoC/my_robot_ws/install/my_robot/share/my_robot//models/aws_robomaker_warehouse_ClutteringD_01/materials/textures/aws_robomaker_warehouse_ClutteringD_01.png
+[0.476s] -- Symlinking: /home/rajana/GSoC/my_robot_ws/install/my_robot/share/my_robot//models/aws_robomaker_warehouse_ClutteringD_01/materials/textures/aws_robomaker_warehouse_ClutteringD_02.png
+[0.483s] -- Symlinking: /home/rajana/GSoC/my_robot_ws/install/my_robot/share/my_robot//models/aws_robomaker_warehouse_ClutteringD_01/meshes/aws_robomaker_warehouse_ClutteringD_01_collision.DAE
+[0.490s] -- Symlinking: /home/rajana/GSoC/my_robot_ws/install/my_robot/share/my_robot//models/aws_robomaker_warehouse_ClutteringD_01/meshes/aws_robomaker_warehouse_ClutteringD_01_visual.DAE
+[0.497s] -- Symlinking: /home/rajana/GSoC/my_robot_ws/install/my_robot/share/my_robot//models/aws_robomaker_warehouse_ClutteringD_01/model.config
+[0.504s] -- Symlinking: /home/rajana/GSoC/my_robot_ws/install/my_robot/share/my_robot//models/aws_robomaker_warehouse_ClutteringD_01/model.sdf
+[0.511s] -- Symlinking: /home/rajana/GSoC/my_robot_ws/install/my_robot/share/my_robot//models/aws_robomaker_warehouse_DeskC_01/materials/.DS_Store
+[0.518s] -- Symlinking: /home/rajana/GSoC/my_robot_ws/install/my_robot/share/my_robot//models/aws_robomaker_warehouse_DeskC_01/materials/textures/aws_robomaker_warehouse_DeskC_01.png
+[0.525s] -- Symlinking: /home/rajana/GSoC/my_robot_ws/install/my_robot/share/my_robot//models/aws_robomaker_warehouse_DeskC_01/materials/textures/aws_robomaker_warehouse_DeskC_02.png
+[0.537s] -- Symlinking: /home/rajana/GSoC/my_robot_ws/install/my_robot/share/my_robot//models/aws_robomaker_warehouse_DeskC_01/materials/textures/aws_robomaker_warehouse_DeskC_03.png
+[0.544s] -- Symlinking: /home/rajana/GSoC/my_robot_ws/install/my_robot/share/my_robot//models/aws_robomaker_warehouse_DeskC_01/materials/textures/aws_robomaker_warehouse_DeskC_03.psd
+[0.551s] -- Symlinking: /home/rajana/GSoC/my_robot_ws/install/my_robot/share/my_robot//models/aws_robomaker_warehouse_DeskC_01/materials/textures/aws_robomaker_warehouse_DeskC_04.png
+[0.557s] -- Symlinking: /home/rajana/GSoC/my_robot_ws/install/my_robot/share/my_robot//models/aws_robomaker_warehouse_DeskC_01/meshes/aws_robomaker_warehouse_DeskC_01_collision.DAE
+[0.563s] -- Symlinking: /home/rajana/GSoC/my_robot_ws/install/my_robot/share/my_robot//models/aws_robomaker_warehouse_DeskC_01/meshes/aws_robomaker_warehouse_DeskC_01_visual.DAE
+[0.570s] -- Symlinking: /home/rajana/GSoC/my_robot_ws/install/my_robot/share/my_robot//models/aws_robomaker_warehouse_DeskC_01/model.config
+[0.577s] -- Symlinking: /home/rajana/GSoC/my_robot_ws/install/my_robot/share/my_robot//models/aws_robomaker_warehouse_DeskC_01/model.sdf
+[0.584s] -- Symlinking: /home/rajana/GSoC/my_robot_ws/install/my_robot/share/my_robot//models/aws_robomaker_warehouse_GroundB_01/materials/textures/aws_robomaker_warehouse_GroundB_01.png
+[0.591s] -- Symlinking: /home/rajana/GSoC/my_robot_ws/install/my_robot/share/my_robot//models/aws_robomaker_warehouse_GroundB_01/materials/textures/aws_robomaker_warehouse_GroundB_02.png
+[0.597s] -- Symlinking: /home/rajana/GSoC/my_robot_ws/install/my_robot/share/my_robot//models/aws_robomaker_warehouse_GroundB_01/meshes/aws_robomaker_warehouse_GroundB_01_collision.DAE
+[0.604s] -- Symlinking: /home/rajana/GSoC/my_robot_ws/install/my_robot/share/my_robot//models/aws_robomaker_warehouse_GroundB_01/meshes/aws_robomaker_warehouse_GroundB_01_visual.DAE
+[0.611s] -- Symlinking: /home/rajana/GSoC/my_robot_ws/install/my_robot/share/my_robot//models/aws_robomaker_warehouse_GroundB_01/model.config
+[0.618s] -- Symlinking: /home/rajana/GSoC/my_robot_ws/install/my_robot/share/my_robot//models/aws_robomaker_warehouse_GroundB_01/model.sdf
+[0.625s] -- Symlinking: /home/rajana/GSoC/my_robot_ws/install/my_robot/share/my_robot//models/aws_robomaker_warehouse_Lamp_01/materials/textures/aws_robomaker_warehouse_Lamp_01.png
+[0.634s] -- Symlinking: /home/rajana/GSoC/my_robot_ws/install/my_robot/share/my_robot//models/aws_robomaker_warehouse_Lamp_01/meshes/aws_robomaker_warehouse_Lamp_01_collision.DAE
+[0.641s] -- Symlinking: /home/rajana/GSoC/my_robot_ws/install/my_robot/share/my_robot//models/aws_robomaker_warehouse_Lamp_01/meshes/aws_robomaker_warehouse_Lamp_01_visual.DAE
+[0.649s] -- Symlinking: /home/rajana/GSoC/my_robot_ws/install/my_robot/share/my_robot//models/aws_robomaker_warehouse_Lamp_01/model.config
+[0.656s] -- Symlinking: /home/rajana/GSoC/my_robot_ws/install/my_robot/share/my_robot//models/aws_robomaker_warehouse_Lamp_01/model.sdf
+[0.663s] -- Symlinking: /home/rajana/GSoC/my_robot_ws/install/my_robot/share/my_robot//models/aws_robomaker_warehouse_PalletJackB_01/.DS_Store
+[0.670s] -- Symlinking: /home/rajana/GSoC/my_robot_ws/install/my_robot/share/my_robot//models/aws_robomaker_warehouse_PalletJackB_01/materials/.DS_Store
+[0.677s] -- Symlinking: /home/rajana/GSoC/my_robot_ws/install/my_robot/share/my_robot//models/aws_robomaker_warehouse_PalletJackB_01/materials/textures/aws_robomaker_warehouse_PalletJackB_01.png
+[0.684s] -- Symlinking: /home/rajana/GSoC/my_robot_ws/install/my_robot/share/my_robot//models/aws_robomaker_warehouse_PalletJackB_01/materials/textures/aws_robomaker_warehouse_PalletJackB_02.png
+[0.691s] -- Symlinking: /home/rajana/GSoC/my_robot_ws/install/my_robot/share/my_robot//models/aws_robomaker_warehouse_PalletJackB_01/meshes/aws_robomaker_warehouse_PalletJackB_01_collision.DAE
+[0.698s] -- Symlinking: /home/rajana/GSoC/my_robot_ws/install/my_robot/share/my_robot//models/aws_robomaker_warehouse_PalletJackB_01/meshes/aws_robomaker_warehouse_PalletJackB_01_visual.DAE
+[0.705s] -- Symlinking: /home/rajana/GSoC/my_robot_ws/install/my_robot/share/my_robot//models/aws_robomaker_warehouse_PalletJackB_01/model.config
+[0.712s] -- Symlinking: /home/rajana/GSoC/my_robot_ws/install/my_robot/share/my_robot//models/aws_robomaker_warehouse_PalletJackB_01/model.sdf
+[0.719s] -- Symlinking: /home/rajana/GSoC/my_robot_ws/install/my_robot/share/my_robot//models/aws_robomaker_warehouse_RoofB_01/materials/textures/aws_robomaker_warehouse_RoofB_01.png
+[0.725s] -- Symlinking: /home/rajana/GSoC/my_robot_ws/install/my_robot/share/my_robot//models/aws_robomaker_warehouse_RoofB_01/meshes/aws_robomaker_warehouse_RoofB_01_collision.DAE
+[0.734s] -- Symlinking: /home/rajana/GSoC/my_robot_ws/install/my_robot/share/my_robot//models/aws_robomaker_warehouse_RoofB_01/meshes/aws_robomaker_warehouse_RoofB_01_visual.DAE
+[0.741s] -- Symlinking: /home/rajana/GSoC/my_robot_ws/install/my_robot/share/my_robot//models/aws_robomaker_warehouse_RoofB_01/model.config
+[0.747s] -- Symlinking: /home/rajana/GSoC/my_robot_ws/install/my_robot/share/my_robot//models/aws_robomaker_warehouse_RoofB_01/model.sdf
+[0.754s] -- Symlinking: /home/rajana/GSoC/my_robot_ws/install/my_robot/share/my_robot//models/aws_robomaker_warehouse_ShelfD_01/materials/textures/aws_robomaker_warehouse_ShelfD_01.png
+[0.761s] -- Symlinking: /home/rajana/GSoC/my_robot_ws/install/my_robot/share/my_robot//models/aws_robomaker_warehouse_ShelfD_01/materials/textures/aws_robomaker_warehouse_ShelfD_02.png
+[0.768s] -- Symlinking: /home/rajana/GSoC/my_robot_ws/install/my_robot/share/my_robot//models/aws_robomaker_warehouse_ShelfD_01/materials/textures/aws_robomaker_warehouse_ShelfD_03.png
+[0.774s] -- Symlinking: /home/rajana/GSoC/my_robot_ws/install/my_robot/share/my_robot//models/aws_robomaker_warehouse_ShelfD_01/materials/textures/aws_robomaker_warehouse_ShelfD_04.png
+[0.781s] -- Symlinking: /home/rajana/GSoC/my_robot_ws/install/my_robot/share/my_robot//models/aws_robomaker_warehouse_ShelfD_01/meshes/aws_robomaker_warehouse_ShelfD_01_collision.DAE
+[0.788s] -- Symlinking: /home/rajana/GSoC/my_robot_ws/install/my_robot/share/my_robot//models/aws_robomaker_warehouse_ShelfD_01/meshes/aws_robomaker_warehouse_ShelfD_01_visual.DAE
+[0.795s] -- Symlinking: /home/rajana/GSoC/my_robot_ws/install/my_robot/share/my_robot//models/aws_robomaker_warehouse_ShelfD_01/model.config
+[0.802s] -- Symlinking: /home/rajana/GSoC/my_robot_ws/install/my_robot/share/my_robot//models/aws_robomaker_warehouse_ShelfD_01/model.sdf
+[0.809s] -- Symlinking: /home/rajana/GSoC/my_robot_ws/install/my_robot/share/my_robot//models/aws_robomaker_warehouse_ShelfE_01/.DS_Store
+[0.816s] -- Symlinking: /home/rajana/GSoC/my_robot_ws/install/my_robot/share/my_robot//models/aws_robomaker_warehouse_ShelfE_01/materials/.DS_Store
+[0.824s] -- Symlinking: /home/rajana/GSoC/my_robot_ws/install/my_robot/share/my_robot//models/aws_robomaker_warehouse_ShelfE_01/materials/textures/aws_robomaker_warehouse_ShelfE_01.png
+[0.833s] -- Symlinking: /home/rajana/GSoC/my_robot_ws/install/my_robot/share/my_robot//models/aws_robomaker_warehouse_ShelfE_01/materials/textures/aws_robomaker_warehouse_ShelfE_02.png
+[0.840s] -- Symlinking: /home/rajana/GSoC/my_robot_ws/install/my_robot/share/my_robot//models/aws_robomaker_warehouse_ShelfE_01/materials/textures/aws_robomaker_warehouse_ShelfE_03.png
+[0.846s] -- Symlinking: /home/rajana/GSoC/my_robot_ws/install/my_robot/share/my_robot//models/aws_robomaker_warehouse_ShelfE_01/materials/textures/aws_robomaker_warehouse_ShelfE_04.png
+[0.853s] -- Symlinking: /home/rajana/GSoC/my_robot_ws/install/my_robot/share/my_robot//models/aws_robomaker_warehouse_ShelfE_01/meshes/aws_robomaker_warehouse_ShelfE_01_collision.DAE
+[0.860s] -- Symlinking: /home/rajana/GSoC/my_robot_ws/install/my_robot/share/my_robot//models/aws_robomaker_warehouse_ShelfE_01/meshes/aws_robomaker_warehouse_ShelfE_01_visual.DAE
+[0.867s] -- Symlinking: /home/rajana/GSoC/my_robot_ws/install/my_robot/share/my_robot//models/aws_robomaker_warehouse_ShelfE_01/model.config
+[0.874s] -- Symlinking: /home/rajana/GSoC/my_robot_ws/install/my_robot/share/my_robot//models/aws_robomaker_warehouse_ShelfE_01/model.sdf
+[0.881s] -- Symlinking: /home/rajana/GSoC/my_robot_ws/install/my_robot/share/my_robot//models/aws_robomaker_warehouse_ShelfF_01/materials/textures/aws_robomaker_warehouse_ShelfF_01.png
+[0.888s] -- Symlinking: /home/rajana/GSoC/my_robot_ws/install/my_robot/share/my_robot//models/aws_robomaker_warehouse_ShelfF_01/materials/textures/aws_robomaker_warehouse_ShelfF_02.png
+[0.894s] -- Symlinking: /home/rajana/GSoC/my_robot_ws/install/my_robot/share/my_robot//models/aws_robomaker_warehouse_ShelfF_01/materials/textures/aws_robomaker_warehouse_ShelfF_03.png
+[0.901s] -- Symlinking: /home/rajana/GSoC/my_robot_ws/install/my_robot/share/my_robot//models/aws_robomaker_warehouse_ShelfF_01/meshes/aws_robomaker_warehouse_ShelfF_01_collision.DAE
+[0.908s] -- Symlinking: /home/rajana/GSoC/my_robot_ws/install/my_robot/share/my_robot//models/aws_robomaker_warehouse_ShelfF_01/meshes/aws_robomaker_warehouse_ShelfF_01_visual.DAE
+[0.915s] -- Symlinking: /home/rajana/GSoC/my_robot_ws/install/my_robot/share/my_robot//models/aws_robomaker_warehouse_ShelfF_01/model.config
+[0.922s] -- Symlinking: /home/rajana/GSoC/my_robot_ws/install/my_robot/share/my_robot//models/aws_robomaker_warehouse_ShelfF_01/model.sdf
+[0.930s] -- Symlinking: /home/rajana/GSoC/my_robot_ws/install/my_robot/share/my_robot//models/aws_robomaker_warehouse_TrashCanC_01/materials/textures/aws_robomaker_warehouse_TrashCanC_01.png
+[0.937s] -- Symlinking: /home/rajana/GSoC/my_robot_ws/install/my_robot/share/my_robot//models/aws_robomaker_warehouse_TrashCanC_01/meshes/aws_robomaker_warehouse_TrashCanC_01_collision.DAE
+[0.944s] -- Symlinking: /home/rajana/GSoC/my_robot_ws/install/my_robot/share/my_robot//models/aws_robomaker_warehouse_TrashCanC_01/meshes/aws_robomaker_warehouse_TrashCanC_01_visual.DAE
+[0.951s] -- Symlinking: /home/rajana/GSoC/my_robot_ws/install/my_robot/share/my_robot//models/aws_robomaker_warehouse_TrashCanC_01/model.config
+[0.959s] -- Symlinking: /home/rajana/GSoC/my_robot_ws/install/my_robot/share/my_robot//models/aws_robomaker_warehouse_TrashCanC_01/model.sdf
+[0.966s] -- Symlinking: /home/rajana/GSoC/my_robot_ws/install/my_robot/share/my_robot//models/aws_robomaker_warehouse_WallB_01/materials/textures/aws_robomaker_warehouse_WallB_01.png
+[0.973s] -- Symlinking: /home/rajana/GSoC/my_robot_ws/install/my_robot/share/my_robot//models/aws_robomaker_warehouse_WallB_01/meshes/aws_robomaker_warehouse_WallB_01_collision.DAE
+[0.980s] -- Symlinking: /home/rajana/GSoC/my_robot_ws/install/my_robot/share/my_robot//models/aws_robomaker_warehouse_WallB_01/meshes/aws_robomaker_warehouse_WallB_01_visual.DAE
+[0.987s] -- Symlinking: /home/rajana/GSoC/my_robot_ws/install/my_robot/share/my_robot//models/aws_robomaker_warehouse_WallB_01/model.config
+[0.994s] -- Symlinking: /home/rajana/GSoC/my_robot_ws/install/my_robot/share/my_robot//models/aws_robomaker_warehouse_WallB_01/model.sdf
+[1.001s] -- Symlinking: /home/rajana/GSoC/my_robot_ws/install/my_robot/share/my_robot//urdf/gz.xacro
+[1.008s] -- Symlinking: /home/rajana/GSoC/my_robot_ws/install/my_robot/share/my_robot//urdf/macros.xacro
+[1.015s] -- Symlinking: /home/rajana/GSoC/my_robot_ws/install/my_robot/share/my_robot//urdf/materials.xacro
+[1.022s] -- Symlinking: /home/rajana/GSoC/my_robot_ws/install/my_robot/share/my_robot//urdf/my_robot.xacro
+[1.030s] -- Symlinking: /home/rajana/GSoC/my_robot_ws/install/my_robot/share/my_robot//worlds/small_warehouse.sdf
+[1.037s] -- Up-to-date symlink: /home/rajana/GSoC/my_robot_ws/install/my_robot/share/ament_index/resource_index/package_run_dependencies/my_robot
+[1.037s] -- Up-to-date symlink: /home/rajana/GSoC/my_robot_ws/install/my_robot/share/ament_index/resource_index/parent_prefix_path/my_robot
+[1.037s] -- Up-to-date symlink: /home/rajana/GSoC/my_robot_ws/install/my_robot/share/my_robot/environment/ament_prefix_path.sh
+[1.038s] -- Up-to-date symlink: /home/rajana/GSoC/my_robot_ws/install/my_robot/share/my_robot/environment/ament_prefix_path.dsv
+[1.038s] -- Up-to-date symlink: /home/rajana/GSoC/my_robot_ws/install/my_robot/share/my_robot/environment/path.sh
+[1.038s] -- Up-to-date symlink: /home/rajana/GSoC/my_robot_ws/install/my_robot/share/my_robot/environment/path.dsv
+[1.038s] -- Up-to-date symlink: /home/rajana/GSoC/my_robot_ws/install/my_robot/share/my_robot/local_setup.bash
+[1.038s] -- Up-to-date symlink: /home/rajana/GSoC/my_robot_ws/install/my_robot/share/my_robot/local_setup.sh
+[1.038s] -- Up-to-date symlink: /home/rajana/GSoC/my_robot_ws/install/my_robot/share/my_robot/local_setup.zsh
+[1.038s] -- Up-to-date symlink: /home/rajana/GSoC/my_robot_ws/install/my_robot/share/my_robot/local_setup.dsv
+[1.038s] -- Symlinking: /home/rajana/GSoC/my_robot_ws/install/my_robot/share/my_robot/package.dsv
+[1.046s] -- Up-to-date symlink: /home/rajana/GSoC/my_robot_ws/install/my_robot/share/ament_index/resource_index/packages/my_robot
+[1.046s] -- Up-to-date symlink: /home/rajana/GSoC/my_robot_ws/install/my_robot/share/my_robot/cmake/my_robotConfig.cmake
+[1.046s] -- Up-to-date symlink: /home/rajana/GSoC/my_robot_ws/install/my_robot/share/my_robot/cmake/my_robotConfig-version.cmake
+[1.046s] -- Up-to-date symlink: /home/rajana/GSoC/my_robot_ws/install/my_robot/share/my_robot/package.xml
+[1.047s] Invoked command in '/home/rajana/GSoC/my_robot_ws/build/my_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/rajana/GSoC/my_robot_ws/build/my_robot

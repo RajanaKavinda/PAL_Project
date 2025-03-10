@@ -1,0 +1,145 @@
+[1.155s] [34mcolcon[0m [1;30mDEBUG[0m [32mCommand line arguments: ['/usr/bin/colcon', 'build', '--symlink-install'][0m
+[1.155s] [34mcolcon[0m [1;30mDEBUG[0m [32mParsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x795bb100bc70>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x795bb100b790>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x795bb100b790>>)[0m
+[6.147s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) check parameters
+[6.147s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) check parameters
+[6.147s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) check parameters
+[6.147s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) check parameters
+[6.147s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) discover
+[6.147s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) discover
+[6.147s] [34mcolcon.colcon_core.package_discovery[0m [1;30mINFO[0m Crawling recursively for packages in '/home/rajana/GSoC/my_robot_ws'
+[6.148s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ignore', 'ignore_ament_install']
+[6.149s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore'
+[6.149s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore_ament_install'
+[6.149s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_pkg']
+[6.149s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_pkg'
+[6.149s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_meta']
+[6.149s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_meta'
+[6.149s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ros']
+[6.149s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ros'
+[6.216s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['cmake', 'python']
+[6.216s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'cmake'
+[6.217s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python'
+[6.217s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['python_setup_py']
+[6.217s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python_setup_py'
+[6.217s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extensions ['ignore', 'ignore_ament_install']
+[6.217s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extension 'ignore'
+[6.217s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) ignored
+[6.218s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extensions ['ignore', 'ignore_ament_install']
+[6.218s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extension 'ignore'
+[6.218s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) ignored
+[6.218s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extensions ['ignore', 'ignore_ament_install']
+[6.218s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extension 'ignore'
+[6.218s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) ignored
+[6.218s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['ignore', 'ignore_ament_install']
+[6.218s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ignore'
+[6.218s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ignore_ament_install'
+[6.218s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['colcon_pkg']
+[6.218s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'colcon_pkg'
+[6.219s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['colcon_meta']
+[6.219s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'colcon_meta'
+[6.219s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['ros']
+[6.219s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ros'
+[6.219s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['cmake', 'python']
+[6.219s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'cmake'
+[6.219s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'python'
+[6.219s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['python_setup_py']
+[6.219s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'python_setup_py'
+[6.219s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/my_robot) by extensions ['ignore', 'ignore_ament_install']
+[6.219s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/my_robot) by extension 'ignore'
+[6.219s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/my_robot) by extension 'ignore_ament_install'
+[6.219s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/my_robot) by extensions ['colcon_pkg']
+[6.219s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/my_robot) by extension 'colcon_pkg'
+[6.219s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/my_robot) by extensions ['colcon_meta']
+[6.220s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/my_robot) by extension 'colcon_meta'
+[6.220s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/my_robot) by extensions ['ros']
+[6.220s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/my_robot) by extension 'ros'
+[6.241s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/my_robot' with type 'ros.ament_cmake' and name 'my_robot'[0m
+[6.241s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) using defaults
+[6.241s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) discover
+[6.241s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) using defaults
+[6.242s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) discover
+[6.242s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) using defaults
+[6.467s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) check parameters
+[6.467s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) discover
+[6.746s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 1 installed packages in /home/rajana/GSoC/my_robot_ws/install[0m
+[6.841s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 1 installed packages in /home/rajana/GSoC/pal_ws/install[0m
+[6.842s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 2 installed packages in /home/rajana/anscer_ws/install[0m
+[6.844s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 3 installed packages in /home/rajana/ROS_WORKSPACES/turtlebot3_ws/install[0m
+[6.862s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 5 installed packages in /home/rajana/gazebo_ws/install[0m
+[6.898s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 1 installed packages in /home/rajana/assignment_ws/install[0m
+[6.907s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 1 installed packages in /home/rajana/ROS_WORKSPACES/amr_ws/install[0m
+[6.939s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 410 installed packages in /opt/ros/humble[0m
+[6.944s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) using defaults
+[11.256s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'my_robot' build argument 'cmake_args' from command line to 'None'
+[11.256s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'my_robot' build argument 'cmake_target' from command line to 'None'
+[11.257s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'my_robot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[11.257s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'my_robot' build argument 'cmake_clean_cache' from command line to 'False'
+[11.257s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'my_robot' build argument 'cmake_clean_first' from command line to 'False'
+[11.257s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'my_robot' build argument 'cmake_force_configure' from command line to 'False'
+[11.257s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'my_robot' build argument 'ament_cmake_args' from command line to 'None'
+[11.257s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'my_robot' build argument 'catkin_cmake_args' from command line to 'None'
+[11.257s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'my_robot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[11.257s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'my_robot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rajana/GSoC/my_robot_ws/build/my_robot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rajana/GSoC/my_robot_ws/install/my_robot', 'merge_install': False, 'path': '/home/rajana/GSoC/my_robot_ws/src/my_robot', 'symlink_install': True, 'test_result_base': None}[0m
+[11.257s] [34mcolcon.colcon_core.executor[0m [1;30mINFO[0m Executing jobs using 'parallel' executor
+[11.258s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete[0m
+[11.258s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/rajana/GSoC/my_robot_ws/src/my_robot' with build type 'ament_cmake'
+[11.258s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/rajana/GSoC/my_robot_ws/src/my_robot'
+[11.380s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[11.380s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[11.380s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[11.476s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/rajana/GSoC/my_robot_ws/build/my_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/rajana/GSoC/my_robot_ws/build/my_robot -- -j8 -l8[0m
+[11.695s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/rajana/GSoC/my_robot_ws/build/my_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/rajana/GSoC/my_robot_ws/build/my_robot -- -j8 -l8[0m
+[11.738s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/rajana/GSoC/my_robot_ws/build/my_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/rajana/GSoC/my_robot_ws/build/my_robot[0m
+[11.831s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(my_robot)
+[11.832s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/rajana/GSoC/my_robot_ws/build/my_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/rajana/GSoC/my_robot_ws/build/my_robot[0m
+[11.898s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/rajana/GSoC/my_robot_ws/install/my_robot' for CMake module files
+[11.899s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/rajana/GSoC/my_robot_ws/install/my_robot' for CMake config files
+[11.915s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('my_robot', 'cmake_prefix_path')
+[11.915s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/rajana/GSoC/my_robot_ws/install/my_robot/share/my_robot/hook/cmake_prefix_path.ps1'
+[11.927s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/rajana/GSoC/my_robot_ws/install/my_robot/share/my_robot/hook/cmake_prefix_path.dsv'
+[11.937s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/rajana/GSoC/my_robot_ws/install/my_robot/share/my_robot/hook/cmake_prefix_path.sh'
+[11.939s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/rajana/GSoC/my_robot_ws/install/my_robot/bin'
+[11.939s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/rajana/GSoC/my_robot_ws/install/my_robot/lib/pkgconfig/my_robot.pc'
+[11.939s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/rajana/GSoC/my_robot_ws/install/my_robot/lib/python3.10/site-packages'
+[11.940s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/rajana/GSoC/my_robot_ws/install/my_robot/bin'
+[11.940s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/rajana/GSoC/my_robot_ws/install/my_robot/share/my_robot/package.ps1'
+[11.942s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/rajana/GSoC/my_robot_ws/install/my_robot/share/my_robot/package.dsv'
+[11.943s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/rajana/GSoC/my_robot_ws/install/my_robot/share/my_robot/package.sh'
+[11.945s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/rajana/GSoC/my_robot_ws/install/my_robot/share/my_robot/package.bash'
+[11.964s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/rajana/GSoC/my_robot_ws/install/my_robot/share/my_robot/package.zsh'
+[11.973s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/rajana/GSoC/my_robot_ws/install/my_robot/share/colcon-core/packages/my_robot)
+[11.974s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(my_robot)
+[11.975s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/rajana/GSoC/my_robot_ws/install/my_robot' for CMake module files
+[11.976s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/rajana/GSoC/my_robot_ws/install/my_robot' for CMake config files
+[11.976s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('my_robot', 'cmake_prefix_path')
+[11.977s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/rajana/GSoC/my_robot_ws/install/my_robot/share/my_robot/hook/cmake_prefix_path.ps1'
+[11.978s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/rajana/GSoC/my_robot_ws/install/my_robot/share/my_robot/hook/cmake_prefix_path.dsv'
+[11.979s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/rajana/GSoC/my_robot_ws/install/my_robot/share/my_robot/hook/cmake_prefix_path.sh'
+[11.980s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/rajana/GSoC/my_robot_ws/install/my_robot/bin'
+[11.980s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/rajana/GSoC/my_robot_ws/install/my_robot/lib/pkgconfig/my_robot.pc'
+[11.980s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/rajana/GSoC/my_robot_ws/install/my_robot/lib/python3.10/site-packages'
+[11.981s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/rajana/GSoC/my_robot_ws/install/my_robot/bin'
+[11.981s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/rajana/GSoC/my_robot_ws/install/my_robot/share/my_robot/package.ps1'
+[11.982s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/rajana/GSoC/my_robot_ws/install/my_robot/share/my_robot/package.dsv'
+[11.983s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/rajana/GSoC/my_robot_ws/install/my_robot/share/my_robot/package.sh'
+[11.984s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/rajana/GSoC/my_robot_ws/install/my_robot/share/my_robot/package.bash'
+[11.985s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/rajana/GSoC/my_robot_ws/install/my_robot/share/my_robot/package.zsh'
+[11.985s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/rajana/GSoC/my_robot_ws/install/my_robot/share/colcon-core/packages/my_robot)
+[11.986s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mclosing loop[0m
+[11.986s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mloop closed[0m
+[11.986s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete finished with '0'[0m
+[11.986s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoining thread[0m
+[12.069s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[12.070s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[12.070s] [34mcolcon.colcon_notification.desktop_notification[0m [1;30mINFO[0m Sending desktop notification using 'notify2'
+[12.091s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoined thread[0m
+[12.092s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/rajana/GSoC/my_robot_ws/install/local_setup.ps1'
+[12.127s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/home/rajana/GSoC/my_robot_ws/install/_local_setup_util_ps1.py'
+[12.139s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/rajana/GSoC/my_robot_ws/install/setup.ps1'
+[12.142s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/rajana/GSoC/my_robot_ws/install/local_setup.sh'
+[12.159s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/home/rajana/GSoC/my_robot_ws/install/_local_setup_util_sh.py'
+[12.160s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/rajana/GSoC/my_robot_ws/install/setup.sh'
+[12.164s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/rajana/GSoC/my_robot_ws/install/local_setup.bash'
+[12.174s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/rajana/GSoC/my_robot_ws/install/setup.bash'
+[12.177s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/rajana/GSoC/my_robot_ws/install/local_setup.zsh'
+[12.184s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/rajana/GSoC/my_robot_ws/install/setup.zsh'

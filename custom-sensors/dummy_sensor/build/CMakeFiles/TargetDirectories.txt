@@ -1,0 +1,3 @@
+/home/rajana/GSoC/custom-sensors/dummy_sensor/build/CMakeFiles/dummy_sensor.dir
+/home/rajana/GSoC/custom-sensors/dummy_sensor/build/CMakeFiles/edit_cache.dir
+/home/rajana/GSoC/custom-sensors/dummy_sensor/build/CMakeFiles/rebuild_cache.dir
