@@ -4,6 +4,17 @@
 This project demonstrates the setup and execution of a Gazebo Harmonic simulation with a custom robot and the `DummySensor` plugin. The sensor publishes "Hello World" messages on a ROS 2 topic using `gz-transport`.
 Here I am using ROS2 Humble with Gazebo Harmonic.
 
+<table align="center">
+  <tr>
+    <td><img src="https://github.com/user-attachments/assets/631e4cc2-c9a8-462e-8ef4-65925ccdd19d"alt="Top Left" width="400"></td>
+    <td><img src="https://github.com/user-attachments/assets/d9afb55b-dcae-493a-b5af-3b61cb55478f" alt="Top Right" width="400"></td>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/user-attachments/assets/8a60440e-ccea-4c0e-882c-f5da5c9e8e57"  alt="Bottom Left" width="400"></td>
+    <td><img src="https://github.com/user-attachments/assets/1a8ede8e-d428-40f4-bea2-7ea221b1a27c" alt="Bottom Right" width="400"></td>
+  </tr>
+</table>
+
 
 ## Installing Gazebo Harmonic on Ubuntu Jammy (22.04) and Ubuntu Noble (24.04).
 Gazebo Harmonic binaries are hosted in the `packages.osrfoundation.org` repository. To install them, follow these steps:
