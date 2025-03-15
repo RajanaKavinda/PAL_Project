@@ -385,6 +385,140 @@ dummy_sensor/CMakeFiles/dummy_sensor.dir/DummySensor.cc.o: \
  /usr/include/gz/sensors8/gz/sensors/config.hh \
  /usr/include/gz/sensors8/gz/sensors/Export.hh \
  /usr/include/gz/sensors8/gz/sensors/detail/Export.hh \
+ /usr/include/gz/msgs10/gz/msgs/Utility.hh \
+ /usr/include/gz/msgs10/gz/msgs/convert/AxisAlignedBox.hh \
+ /usr/include/gz/msgs10/gz/msgs/convert/Vector3.hh \
+ /usr/include/gz/msgs10/gz/msgs/vector3d.pb.h \
+ /usr/include/gz/msgs10/gz/msgs/details/vector3d.pb.h \
+ /usr/include/gz/msgs10/gz/msgs/axis_aligned_box.pb.h \
+ /usr/include/gz/msgs10/gz/msgs/details/axis_aligned_box.pb.h \
+ /usr/include/gz/math7/gz/math/AxisAlignedBox.hh \
+ /usr/include/gz/math7/gz/math/Line3.hh \
+ /usr/include/gz/msgs10/gz/msgs/convert/Color.hh \
+ /usr/include/gz/msgs10/gz/msgs/color.pb.h \
+ /usr/include/gz/msgs10/gz/msgs/details/color.pb.h \
+ /usr/include/gz/msgs10/gz/msgs/convert/Inertial.hh \
+ /usr/include/gz/msgs10/gz/msgs/convert/Pose.hh \
+ /usr/include/gz/msgs10/gz/msgs/convert/Quaternion.hh \
+ /usr/include/gz/msgs10/gz/msgs/quaternion.pb.h \
+ /usr/include/gz/msgs10/gz/msgs/details/quaternion.pb.h \
+ /usr/include/gz/msgs10/gz/msgs/pose.pb.h \
+ /usr/include/gz/msgs10/gz/msgs/details/pose.pb.h \
+ /usr/include/gz/msgs10/gz/msgs/inertial.pb.h \
+ /usr/include/gz/msgs10/gz/msgs/details/inertial.pb.h \
+ /usr/include/gz/msgs10/gz/msgs/convert/Plane.hh \
+ /usr/include/gz/msgs10/gz/msgs/convert/Vector2.hh \
+ /usr/include/gz/msgs10/gz/msgs/vector2d.pb.h \
+ /usr/include/gz/msgs10/gz/msgs/details/vector2d.pb.h \
+ /usr/include/gz/msgs10/gz/msgs/planegeom.pb.h \
+ /usr/include/gz/msgs10/gz/msgs/details/planegeom.pb.h \
+ /usr/include/gz/math7/gz/math/Plane.hh \
+ /usr/include/gz/math7/gz/math/Line2.hh \
+ /usr/include/gz/msgs10/gz/msgs/convert/SphericalCoordinates.hh \
+ /usr/include/gz/msgs10/gz/msgs/spherical_coordinates.pb.h \
+ /usr/include/gz/msgs10/gz/msgs/details/spherical_coordinates.pb.h \
+ /usr/include/gz/msgs10/gz/msgs/entity.pb.h \
+ /usr/include/gz/msgs10/gz/msgs/details/entity.pb.h \
+ /usr/include/gz/math7/gz/math/SphericalCoordinates.hh \
+ /usr/include/gz/msgs10/gz/msgs/convert/StdTypes.hh \
+ /usr/include/gz/msgs10/gz/msgs/boolean.pb.h \
+ /usr/include/gz/msgs10/gz/msgs/details/boolean.pb.h \
+ /usr/include/gz/msgs10/gz/msgs/double.pb.h \
+ /usr/include/gz/msgs10/gz/msgs/details/double.pb.h \
+ /usr/include/gz/msgs10/gz/msgs/float.pb.h \
+ /usr/include/gz/msgs10/gz/msgs/details/float.pb.h \
+ /usr/include/gz/msgs10/gz/msgs/int32.pb.h \
+ /usr/include/gz/msgs10/gz/msgs/details/int32.pb.h \
+ /usr/include/gz/msgs10/gz/msgs/int64.pb.h \
+ /usr/include/gz/msgs10/gz/msgs/details/int64.pb.h \
+ /usr/include/gz/msgs10/gz/msgs/uint32.pb.h \
+ /usr/include/gz/msgs10/gz/msgs/details/uint32.pb.h \
+ /usr/include/gz/msgs10/gz/msgs/uint64.pb.h \
+ /usr/include/gz/msgs10/gz/msgs/details/uint64.pb.h \
+ /usr/include/gz/msgs10/gz/msgs/convert/DiscoveryType.hh \
+ /usr/include/gz/msgs10/gz/msgs/discovery.pb.h \
+ /usr/include/gz/msgs10/gz/msgs/details/discovery.pb.h \
+ /usr/include/gz/msgs10/gz/msgs/convert/FuelMetadata.hh \
+ /usr/include/gz/msgs10/gz/msgs/fuel_metadata.pb.h \
+ /usr/include/gz/msgs10/gz/msgs/details/fuel_metadata.pb.h \
+ /usr/include/google/protobuf/map_entry.h \
+ /usr/include/google/protobuf/reflection_ops.h \
+ /usr/include/google/protobuf/map_field_inl.h \
+ /usr/include/google/protobuf/map_field.h \
+ /usr/include/gz/msgs10/gz/msgs/version.pb.h \
+ /usr/include/gz/msgs10/gz/msgs/details/version.pb.h \
+ /usr/include/gz/msgs10/gz/msgs/version_range.pb.h \
+ /usr/include/gz/msgs10/gz/msgs/details/version_range.pb.h \
+ /usr/include/gz/msgs10/gz/msgs/versioned_name.pb.h \
+ /usr/include/gz/msgs10/gz/msgs/details/versioned_name.pb.h \
+ /usr/include/tinyxml2.h /usr/include/gz/math7/gz/math/SemanticVersion.hh \
+ /usr/include/gz/msgs10/gz/msgs/convert/GeometryType.hh \
+ /usr/include/gz/msgs10/gz/msgs/geometry.pb.h \
+ /usr/include/gz/msgs10/gz/msgs/details/geometry.pb.h \
+ /usr/include/gz/msgs10/gz/msgs/boxgeom.pb.h \
+ /usr/include/gz/msgs10/gz/msgs/details/boxgeom.pb.h \
+ /usr/include/gz/msgs10/gz/msgs/capsulegeom.pb.h \
+ /usr/include/gz/msgs10/gz/msgs/details/capsulegeom.pb.h \
+ /usr/include/gz/msgs10/gz/msgs/conegeom.pb.h \
+ /usr/include/gz/msgs10/gz/msgs/details/conegeom.pb.h \
+ /usr/include/gz/msgs10/gz/msgs/cylindergeom.pb.h \
+ /usr/include/gz/msgs10/gz/msgs/details/cylindergeom.pb.h \
+ /usr/include/gz/msgs10/gz/msgs/ellipsoidgeom.pb.h \
+ /usr/include/gz/msgs10/gz/msgs/details/ellipsoidgeom.pb.h \
+ /usr/include/gz/msgs10/gz/msgs/heightmapgeom.pb.h \
+ /usr/include/gz/msgs10/gz/msgs/details/heightmapgeom.pb.h \
+ /usr/include/gz/msgs10/gz/msgs/image.pb.h \
+ /usr/include/gz/msgs10/gz/msgs/details/image.pb.h \
+ /usr/include/gz/msgs10/gz/msgs/imagegeom.pb.h \
+ /usr/include/gz/msgs10/gz/msgs/details/imagegeom.pb.h \
+ /usr/include/gz/msgs10/gz/msgs/meshgeom.pb.h \
+ /usr/include/gz/msgs10/gz/msgs/details/meshgeom.pb.h \
+ /usr/include/gz/msgs10/gz/msgs/polylinegeom.pb.h \
+ /usr/include/gz/msgs10/gz/msgs/details/polylinegeom.pb.h \
+ /usr/include/gz/msgs10/gz/msgs/spheregeom.pb.h \
+ /usr/include/gz/msgs10/gz/msgs/details/spheregeom.pb.h \
+ /usr/include/gz/msgs10/gz/msgs/convert/JointType.hh \
+ /usr/include/gz/msgs10/gz/msgs/joint.pb.h \
+ /usr/include/gz/msgs10/gz/msgs/details/joint.pb.h \
+ /usr/include/gz/msgs10/gz/msgs/axis.pb.h \
+ /usr/include/gz/msgs10/gz/msgs/details/axis.pb.h \
+ /usr/include/gz/msgs10/gz/msgs/sensor.pb.h \
+ /usr/include/gz/msgs10/gz/msgs/details/sensor.pb.h \
+ /usr/include/gz/msgs10/gz/msgs/altimeter_sensor.pb.h \
+ /usr/include/gz/msgs10/gz/msgs/details/altimeter_sensor.pb.h \
+ /usr/include/gz/msgs10/gz/msgs/sensor_noise.pb.h \
+ /usr/include/gz/msgs10/gz/msgs/details/sensor_noise.pb.h \
+ /usr/include/gz/msgs10/gz/msgs/air_speed_sensor.pb.h \
+ /usr/include/gz/msgs10/gz/msgs/details/air_speed_sensor.pb.h \
+ /usr/include/gz/msgs10/gz/msgs/camerasensor.pb.h \
+ /usr/include/gz/msgs10/gz/msgs/details/camerasensor.pb.h \
+ /usr/include/gz/msgs10/gz/msgs/distortion.pb.h \
+ /usr/include/gz/msgs10/gz/msgs/details/distortion.pb.h \
+ /usr/include/gz/msgs10/gz/msgs/lens.pb.h \
+ /usr/include/gz/msgs10/gz/msgs/details/lens.pb.h \
+ /usr/include/gz/msgs10/gz/msgs/contactsensor.pb.h \
+ /usr/include/gz/msgs10/gz/msgs/details/contactsensor.pb.h \
+ /usr/include/gz/msgs10/gz/msgs/air_pressure_sensor.pb.h \
+ /usr/include/gz/msgs10/gz/msgs/details/air_pressure_sensor.pb.h \
+ /usr/include/gz/msgs10/gz/msgs/gps_sensor.pb.h \
+ /usr/include/gz/msgs10/gz/msgs/details/gps_sensor.pb.h \
+ /usr/include/gz/msgs10/gz/msgs/imu_sensor.pb.h \
+ /usr/include/gz/msgs10/gz/msgs/details/imu_sensor.pb.h \
+ /usr/include/gz/msgs10/gz/msgs/lidar_sensor.pb.h \
+ /usr/include/gz/msgs10/gz/msgs/details/lidar_sensor.pb.h \
+ /usr/include/gz/msgs10/gz/msgs/logical_camera_sensor.pb.h \
+ /usr/include/gz/msgs10/gz/msgs/details/logical_camera_sensor.pb.h \
+ /usr/include/gz/msgs10/gz/msgs/magnetometer_sensor.pb.h \
+ /usr/include/gz/msgs10/gz/msgs/details/magnetometer_sensor.pb.h \
+ /usr/include/gz/msgs10/gz/msgs/convert/PixelFormatType.hh \
+ /usr/include/gz/msgs10/gz/msgs/convert/ShaderType.hh \
+ /usr/include/gz/msgs10/gz/msgs/material.pb.h \
+ /usr/include/gz/msgs10/gz/msgs/details/material.pb.h \
+ /usr/include/gz/msgs10/gz/msgs/PointCloudPackedUtils.hh \
+ /usr/include/gz/msgs10/gz/msgs/pointcloud_packed.pb.h \
+ /usr/include/gz/msgs10/gz/msgs/details/pointcloud_packed.pb.h \
+ /usr/include/c++/11/cstdarg /usr/include/gz/msgs10/gz/msgs/config.hh \
+ /usr/include/gz/msgs10/gz/msgs/detail/PointCloudPackedUtils.hh \
  /home/rajana/GSoC/custom-sensors/dummy_sensor/DummySensor.hh \
  /usr/include/gz/sensors8/gz/sensors/Sensor.hh \
  /usr/include/gz/sdformat14/sdf/sdf.hh \
@@ -402,10 +536,6 @@ dummy_sensor/CMakeFiles/dummy_sensor.dir/DummySensor.cc.o: \
  /usr/include/gz/math7/gz/math/Temperature.hh \
  /usr/include/gz/sdformat14/sdf/Box.hh \
  /usr/include/gz/math7/gz/math/Box.hh \
- /usr/include/gz/math7/gz/math/Plane.hh \
- /usr/include/gz/math7/gz/math/AxisAlignedBox.hh \
- /usr/include/gz/math7/gz/math/Line3.hh \
- /usr/include/gz/math7/gz/math/Line2.hh \
  /usr/include/gz/math7/gz/math/detail/WellOrderedVector.hh \
  /usr/include/gz/math7/gz/math/detail/Box.hh \
  /usr/include/gz/math7/gz/math/Triangle3.hh \
@@ -454,7 +584,8 @@ dummy_sensor/CMakeFiles/dummy_sensor.dir/DummySensor.cc.o: \
  /usr/include/gz/sdformat14/sdf/Surface.hh \
  /usr/include/gz/sdformat14/sdf/Visual.hh \
  /usr/include/gz/sdformat14/sdf/World.hh \
- /usr/include/gz/math7/gz/math/SphericalCoordinates.hh \
+ /usr/include/gz/sensors8/gz/sensors/SensorTypes.hh \
+ /usr/include/gz/common5/gz/common/EnumIface.hh \
  /usr/include/gz/transport13/gz/transport/Node.hh \
  /usr/include/gz/transport13/gz/transport/AdvertiseOptions.hh \
  /usr/include/gz/transport13/gz/transport/config.hh \
@@ -465,15 +596,12 @@ dummy_sensor/CMakeFiles/dummy_sensor.dir/DummySensor.cc.o: \
  /usr/include/gz/transport13/gz/transport/HandlerStorage.hh \
  /usr/include/gz/transport13/gz/transport/TransportTypes.hh \
  /usr/include/gz/transport13/gz/transport/Publisher.hh \
- /usr/include/gz/msgs10/gz/msgs/discovery.pb.h \
- /usr/include/gz/msgs10/gz/msgs/details/discovery.pb.h \
  /usr/include/gz/transport13/gz/transport/RepHandler.hh \
  /usr/include/gz/transport13/gz/transport/Uuid.hh \
  /usr/include/uuid/uuid.h /usr/include/x86_64-linux-gnu/sys/time.h \
  /usr/include/gz/transport13/gz/transport/ReqHandler.hh \
  /usr/include/gz/transport13/gz/transport/SubscriptionHandler.hh \
  /usr/include/gz/msgs10/gz/msgs/Factory.hh \
- /usr/include/gz/msgs10/gz/msgs/config.hh \
  /usr/include/gz/msgs10/gz/msgs/MessageFactory.hh \
  /usr/include/gz/msgs10/gz/msgs/detail/dynamic_message_cast.hh \
  /usr/include/gz/transport13/gz/transport/MessageInfo.hh \

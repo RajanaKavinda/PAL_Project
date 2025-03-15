@@ -2,10 +2,12 @@
 #define DUMMY_SENSOR_HH_
 
 #include <gz/sensors/Sensor.hh>
+#include <gz/sensors/SensorTypes.hh>
 #include <gz/transport/Node.hh>
 
 namespace custom
 {
+
   /// \brief A simple custom sensor that publishes "Hello World"
   class DummySensor : public gz::sensors::Sensor
   {
@@ -20,6 +22,9 @@ namespace custom
     public: virtual bool Update(
       const std::chrono::steady_clock::duration &_now) override;
 
+    /// \brief  Message to be published
+    private: std::string message = "Hello World";
+
     /// \brief Node for communication
     private: gz::transport::Node node;
 
@@ -29,3 +34,4 @@ namespace custom
 }
 
 #endif
+

@@ -56,6 +56,12 @@ void DummySensorSystem::PreUpdate(const gz::sim::UpdateInfo &,
           return false;
         }
 
+        else
+        {
+            gzlog << "Successfully created dummy sensor [" << sensorScopedName << "]"
+                  << std::endl;
+        }
+
         // Set sensor parent
         auto parentName = _ecm.Component<gz::sim::components::Name>(
             _parent->Data())->Data();

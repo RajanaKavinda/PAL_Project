@@ -1,7 +1,5 @@
 <?xml version="1.0"?>
 <robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="my_robot">
-
-
     <!-- ........................... SENSOR PLUGIN ................................... -->
 
     <gazebo>
@@ -13,9 +11,6 @@
         </plugin>
 
         <plugin filename="gz-sim-joint-state-publisher-system" name="gz::sim::systems::JointStatePublisher">
-        </plugin>
-
-        <plugin filename="DummySensorSystem" name="custom::DummySensorSystem">
         </plugin>
 
         <!-- ........................... DIFFERENTIAL DRIVE PLUGIN ................................... -->
@@ -51,14 +46,6 @@
         </plugin>
     </gazebo>
     </xacro:if>
-
-    <!-- ........................... Dummy Sensor ................................... -->
-
-    <sensor name="dummy_sensor" type="dummy">
-        <always_on>1</always_on>
-        <update_rate>30</update_rate>
-        <topic>dummy_sensor</topic>
-    </sensor>
 
     <!-- ........................... 2D LIDAR config ................................... -->
 

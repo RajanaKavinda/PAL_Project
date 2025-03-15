@@ -4,9 +4,6 @@
 #include <gz/sim/System.hh>
 #include <gz/sensors/Sensor.hh>
 #include <gz/transport/Node.hh>
-#include "../dummy_sensor/DummySensor.hh"
-
-
 
 
 namespace custom

@@ -13,7 +13,7 @@
       filename="gz-sim-scene-broadcaster-system"
       name="gz::sim::systems::SceneBroadcaster">
     </plugin>
-    <!-- The system is added to the world, so it handles all odometers in the world-->
+
     <plugin
       filename="DummySensorSystem"
       name="custom::DummySensorSystem">

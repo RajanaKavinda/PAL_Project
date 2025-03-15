@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3
 
 from os.path import join
 from xacro import parse, process_doc
@@ -46,8 +46,7 @@ def generate_launch_description():
                     ' camera_enabled:=', camera_enabled,
                     ' stereo_camera_enabled:=', stereo_camera_enabled,
                     ' two_d_lidar_enabled:=', two_d_lidar_enabled,
-                    ' odometry_source:=', odometry_source,
-                    ' sim_gz:=', "true"
+                    ' odometry_source:=', odometry_source
                     ])}],
         remappings=[
             ('/joint_states', 'my_robot/joint_states'),
@@ -77,6 +76,7 @@ def generate_launch_description():
             "/odom@nav_msgs/msg/Odometry[gz.msgs.Odometry",
             "/tf@tf2_msgs/msg/TFMessage[gz.msgs.Pose_V",
             "/scan@sensor_msgs/msg/LaserScan[gz.msgs.LaserScan",
+            "/dummy_sensor@std_msgs/msg/String[gz.msgs.StringMsg",
             "/kinect_camera@sensor_msgs/msg/Image[gz.msgs.Image",
             "/stereo_camera/left/image_raw@sensor_msgs/msg/Image[gz.msgs.Image",
             "stereo_camera/right/image_raw@sensor_msgs/msg/Image[gz.msgs.Image",
@@ -91,11 +91,12 @@ def generate_launch_description():
             ('/world/default/model/my_robot/joint_state', 'my_robot/joint_states'),
             ('/odom', 'my_robot/odom'),
             ('/scan', 'my_robot/scan'),
+            ('/dummy_sensor', 'my_robot/dummy_sensor'),
             ('/kinect_camera', 'my_robot/kinect_camera'),
             ('/stereo_camera/left/image_raw', 'my_robot/stereo_camera/left/image_raw'),
             ('/stereo_camera/right/image_raw', 'my_robot/stereo_camera/right/image_raw'),
             ('/imu', 'my_robot/imu'),
-            ('/cmd_vel', 'my_robot/cmd_vel'),
+            ('/cmd_vel', '/cmd_vel'),
             ('kinect_camera/camera_info', 'my_robot/kinect_camera/camera_info'),
             ('stereo_camera/left/camera_info', 'my_robot/stereo_camera/left/camera_info'),
             ('stereo_camera/right/camera_info', 'my_robot/stereo_camera/right/camera_info'),
