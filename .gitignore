@@ -1,0 +1,5 @@
+my_robot_ws/build/
+my_robot_ws/install/
+my_robot_ws/log/
+.vscode/
+custom_sensors/.vscode/
