@@ -27,15 +27,6 @@ def generate_launch_description():
     two_d_lidar_enabled = LaunchConfiguration("two_d_lidar_enabled", default=True)
     odometry_source = LaunchConfiguration("odometry_source")
 
-    # robot_description_content = get_xacro_to_doc(
-    #     join(my_robot_path, "urdf", "my_robot.xacro"),
-    #     {"sim_gz": "true",
-    #      "two_d_lidar_enabled": "true",
-    #      "conveyor_enabled": "false",
-    #      "camera_enabled": "true"
-    #     }
-    # ).toxml()
-
     robot_state_publisher = Node(
         package="robot_state_publisher",
         executable="robot_state_publisher",
@@ -46,7 +37,8 @@ def generate_launch_description():
                     ' camera_enabled:=', camera_enabled,
                     ' stereo_camera_enabled:=', stereo_camera_enabled,
                     ' two_d_lidar_enabled:=', two_d_lidar_enabled,
-                    ' odometry_source:=', odometry_source
+                    ' odometry_source:=', odometry_source,
+                    ' sim_gz:=', "true"
                     ])}],
         remappings=[
             ('/joint_states', 'my_robot/joint_states'),
