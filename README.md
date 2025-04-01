@@ -38,7 +38,6 @@ After installation, all libraries should be ready to use, and the `gz sim` appli
 ## Setup Instructions
 ### 1. Clone the Repository
 ```sh
-cd ~/workspace  # or your preferred workspace
 git clone <repo_url>
 cd PAL_Project
 ```
@@ -88,14 +87,20 @@ colcon build
 source install/setup.bash
 ```
 
-### 2. Launch the Robot in Gazebo
+### 2. Launch the Robot in Gazebo Harmonic/ Gazebo Classic
 ```sh
 ros2 launch my_robot gz.launch.py
+```
+or If you want to simulate this robot on gazebo classic 
+```sh
+ros2 launch my_robot gazebo.launch.py
 ```
 
 ### 3. Visualize in RViz
 ```sh
 ros2 launch my_robot rviz.launch.py
+
+
 ```
 
 
