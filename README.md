@@ -44,7 +44,7 @@ cd PAL_Project
 
 ### 2. Build the DummySensor Plugin
 ```sh
-cd custom_sensors/dummy_sensor
+cd custom-sensors/dummy_sensor
 mkdir build && cd build
 cmake ..
 make
@@ -57,7 +57,7 @@ make
 
 ### 3. Set Environment Variables
 ```sh
-cd custom_sensors/dummy_sensor_system
+cd custom-sensors/dummy_sensor_system
 export GZ_SIM_SYSTEM_PLUGIN_PATH=$(pwd)/build
 ```
 
