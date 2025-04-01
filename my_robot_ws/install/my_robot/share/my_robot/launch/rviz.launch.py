@@ -1,1 +1,0 @@
-/home/rajana/GSoC/my_robot_ws/src/my_robot/launch/rviz.launch.py

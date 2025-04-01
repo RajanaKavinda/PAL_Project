@@ -1,0 +1,15 @@
+# ROS2 build, install, and log directories  
+my_robot_ws/build/  
+my_robot_ws/log/  
+my_robot_ws/install/  
+
+# VSCode settings  
+.vscode/  
+my_robot_ws/.vscode/  
+custom-sensors/.vscode/  
+custom-sensors/dummy_sensor/.vscode/  
+custom-sensors/dummy_sensor_system/.vscode/  
+
+# Custom sensor builds  
+custom-sensors/dummy_sensor/build/  
+custom-sensors/dummy_sensor_system/build/  

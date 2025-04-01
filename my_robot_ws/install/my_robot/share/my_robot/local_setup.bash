@@ -1,1 +1,0 @@
-/home/rajana/GSoC/my_robot_ws/build/my_robot/ament_cmake_environment_hooks/local_setup.bash
