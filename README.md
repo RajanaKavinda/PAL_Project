@@ -49,7 +49,7 @@ mkdir build && cd build
 cmake ..
 make
 
-cd ../custom_sensor_system
+cd ../dummy_sensor_system
 mkdir build && cd build
 cmake ..
 make
@@ -57,6 +57,7 @@ make
 
 ### 3. Set Environment Variables
 ```sh
+cd custom_sensors/dummy_sensor_system
 export GZ_SIM_SYSTEM_PLUGIN_PATH=$(pwd)/build
 ```
 
